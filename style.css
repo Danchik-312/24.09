@@ -1,5 +1,12 @@
-ul li ol{
+*{
+    box-sizing: border-box;
+}
+
+ul li{
     list-style: none;
+}
+
+ul{
     margin: 0;
     padding: 0;
 }
@@ -10,4 +17,42 @@ a{
 
 html,body{
     margin: 0;
+    overflow: hidden
+}
+
+.header{
+    background-color: burlywood;
+    width: 100%;
+    min-height: 50px;
+    display: flex;
+    align-items: center;
+    padding: 0 80px;
+}
+
+.header__menu{
+    
+}
+
+.menu__list{
+    display: flex;
+    align-items: center;
+}
+
+.menu__item{
+    
+}
+
+.menu__item:not(:last-child){
+    margin-right: 40px;
+}
+
+.menu__link{
+    color: black;
+    font-weight: 500;
+    font-size: 22px;
+}
+
+.menu__link:hover{
+    color: aqua;
+    cursor: pointer;
 }
